@@ -12,6 +12,7 @@ internal class Program
 
         //dichiaro la lunghezza dell'array
 
+        
         int result = cibiPreferiti.GetLength(0);
         Console.WriteLine("Totale dei cibi preferiti: {0}", result);
 
@@ -23,7 +24,8 @@ internal class Program
         for (int i = 0; i < cibiPreferiti.Length; i++)
 
         {
-            Console.WriteLine(String.Format("{0} = {1}", i, cibiPreferiti[i]));
+            Console.Write(i + 1 + " - ");
+            Console.WriteLine(String.Format(cibiPreferiti[i]));
             
         }
 
