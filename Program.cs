@@ -9,7 +9,23 @@ internal class Program
 
         /////////////////////////////////////////////////////////// Inizio Snacks/////////////////////////////////////////////////////////////////////////////////////
 
+        //Snack 5
 
+        int operatorNumber;
+        Console.WriteLine("Inserisci un numero:");
+        operatorNumber = Convert.ToInt32(Console.ReadLine());
+       
+
+        if (operatorNumber % 2 == 0)
+        {
+            Console.Write("Numero pari:" + operatorNumber);
+        }
+        else
+        {
+            Console.Write("Il numero successivo é: " + (operatorNumber + 1) );
+        }
+
+        return;
 
         //Snack 4
 
