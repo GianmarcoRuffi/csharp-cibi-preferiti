@@ -10,6 +10,45 @@ internal class Program
         /////////////////////////////////////////////////////////// Inizio Snacks////////////////////////////////////////////////////////////////////////////////////////
 
 
+        //Snack 8
+
+        //Initialize array   
+        int[] arr = new int[] { 4, 15, 20, 30, 50 };
+        int somma = 0;
+
+        Console.WriteLine("Somma dei numeri in posizione dispari: ");
+        //Loop through the array by incrementing value of i by 2   
+        for (int i = 0; i < arr.Length; i = i + 2)
+        {
+            somma += (arr[i]);
+            
+        }
+
+        Console.WriteLine(somma);
+
+        return;
+
+
+        //Snack 7
+
+        int[] inputNumbers = new int[6];
+
+        Console.WriteLine("Inserisci 6 volte dei numeri:");
+        for (int i = 1; i <= inputNumbers.Length; i++)
+        {
+            Console.WriteLine("Inserisci un numero: ");
+
+            //inputNumbers[i] = Convert.ToInt32(Console.ReadLine()); CREA UN'ECCEZIONE???
+
+          
+
+        }
+
+        return;
+
+
+
+
         //Snack 6
 
         // Create and initialize array
@@ -77,10 +116,6 @@ internal class Program
         }
         Console.WriteLine("Totale: " + Sum);
 
-        //int Result;
-        //Result = Number1 + Number2;
-        //Console.WriteLine("Sum of two Numbers:" + Result.ToString());
-        //Console.ReadLine();
 
 
         //Snack 2
