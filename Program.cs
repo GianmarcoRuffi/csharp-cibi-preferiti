@@ -10,6 +10,24 @@ internal class Program
         /////////////////////////////////////////////////////////// Inizio Snacks/////////////////////////////////////////////////////////////////////////////////////
 
 
+        //Snack 3
+
+        int Sum = 0, Value;
+
+        Console.WriteLine("Inserisci 10 volte dei numeri:");
+        for (int i = 0; i <= 9; i++)
+        {
+            Console.WriteLine("Inserisci un numero: ");
+            Value = Convert.ToInt32(Console.ReadLine());
+            Sum += Value;
+        }
+        Console.WriteLine("Totale: " + Sum);
+
+        //int Result;
+        //Result = Number1 + Number2;
+        //Console.WriteLine("Sum of two Numbers:" + Result.ToString());
+        //Console.ReadLine();
+
 
         //Snack 2
 
@@ -47,10 +65,7 @@ internal class Program
         }
 
         //
-        //int Result;
-        //Result = Number1 + Number2;
-        //Console.WriteLine("Sum of two Numbers:" + Result.ToString());
-        //Console.ReadLine();
+      
 
 
 
