@@ -7,7 +7,31 @@ internal class Program
 
 
 
-        /////////////////////////////////////////////////////////// Inizio Snacks/////////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////// Inizio Snacks////////////////////////////////////////////////////////////////////////////////////////
+
+
+        //Snack 6
+
+        // Create and initialize array
+        string[] guests = {"Anthony", "Mark", "Theodore"};
+
+        Console.WriteLine("Inserisci il tuo nome:");
+        string nome = Console.ReadLine();
+
+        if (Array.Exists(guests, element => element == nome))
+        {
+            Console.WriteLine("Benvenuto alla festa!");
+        }
+        else
+        {
+            Console.WriteLine("Spiacente il tuo nome non compare nella lista.");
+        }
+
+        return;
+
+
+
+
 
         //Snack 5
 
