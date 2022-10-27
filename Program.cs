@@ -55,14 +55,35 @@ internal class Program
 
         // Mediano in classifica
 
-        Console.WriteLine();
+        //Console.WriteLine();
 
-        for (int i = 0; i < 1; i++)
+        //for (int i = 0; i < 1; i++)
 
 
-            Console.WriteLine("Cibo preferito in mezzo: {0}", cibiPreferiti[cibiPreferiti.Length/2]);
-        Console.WriteLine();
-        Console.WriteLine("Cibo preferito in mezzo: {0}", cibiPreferiti[cibiPreferiti.Length / 2 - 1]);
+        //    Console.WriteLine("Cibo preferito in mezzo: {0}", cibiPreferiti[cibiPreferiti.Length/2]);
+        //Console.WriteLine();
+        //Console.WriteLine("Cibo preferito in mezzo: {0}", cibiPreferiti[cibiPreferiti.Length / 2 - 1]);
+
+
+        // Mediano in classifica corretto
+
+        if (cibiPreferiti.Length % 2 == 0)
+
+        {
+
+            //pari 
+            int medianaSuperiore = cibiPreferiti.Length / 2;
+            int medianaInferiore = medianaSuperiore - 1;
+            Console.WriteLine("La mediana è: {0} e {1} " , cibiPreferiti[medianaInferiore], cibiPreferiti[medianaSuperiore]);
+        }
+
+        else
+        {
+            //pari 
+            int mediana = cibiPreferiti.Length / 2;
+            Console.WriteLine("La mediana è: {0}" + cibiPreferiti[mediana]);
+
+        }
 
 
 
