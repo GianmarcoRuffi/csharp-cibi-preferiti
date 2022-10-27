@@ -12,14 +12,19 @@ internal class Program
 
         //dichiaro la lunghezza dell'array
 
+        Console.WriteLine();
         
+
+
+
         int result = cibiPreferiti.GetLength(0);
         Console.WriteLine("Totale dei cibi preferiti: {0}", result);
 
 
         // Array dichiaro la lista intera con relativa posizione
 
-
+        Console.WriteLine();
+        Console.WriteLine("Classifica dei cibi:");
 
         for (int i = 0; i < cibiPreferiti.Length; i++)
 
@@ -31,12 +36,16 @@ internal class Program
 
         // Primo in classifica
 
+        Console.WriteLine();
+
         for (int i = 0; i < 1; i++)
 
         { Console.WriteLine("Cibo preferito in cima: {0}", cibiPreferiti[0]);};
-      
+
 
         // Ultimo in classifica
+
+        Console.WriteLine();
 
         for (int i = 0; i < 1; i++)
 
@@ -46,10 +55,13 @@ internal class Program
 
         // Mediano in classifica
 
+        Console.WriteLine();
+
         for (int i = 0; i < 1; i++)
 
 
             Console.WriteLine("Cibo preferito in mezzo: {0}", cibiPreferiti[cibiPreferiti.Length/2]);
+        Console.WriteLine();
         Console.WriteLine("Cibo preferito in mezzo: {0}", cibiPreferiti[cibiPreferiti.Length / 2 - 1]);
 
 
