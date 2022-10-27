@@ -4,18 +4,27 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+
+
+        //dichiaro l'array
+
         string[] cibiPreferiti = { "Riso alla zucca", "Insalata di mare", "Torta al cioccolato", "Bistecca", "Pizza"};
 
-        // Array lista intera
+        //dichiaro la lunghezza dell'array
 
-        //for (int i = 0; i < cibiPreferiti.Length; i++)
+        int result = cibiPreferiti.GetLength(0);
+        Console.WriteLine("Totale cibi preferiti: {0}", result);
 
-        //{ Console.WriteLine($"{cibiPreferiti[i]}  "); };
+
+        // Array dichiaro la lista intera con relativa posizione
+
 
 
         for (int i = 0; i < cibiPreferiti.Length; i++)
+
         {
             Console.WriteLine(String.Format("{0} = {1}", i, cibiPreferiti[i]));
+            
         }
 
         // Primo in classifica
