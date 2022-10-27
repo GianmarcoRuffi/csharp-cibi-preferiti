@@ -6,6 +6,59 @@ internal class Program
     {
 
 
+
+        /////////////////////////////////////////////////////////// Inizio Snacks/////////////////////////////////////////////////////////////////////////////////////
+
+
+
+        //Snack 2
+
+
+        Console.WriteLine("Inserisci una parola:");
+        string Word1 = Console.ReadLine();
+        Console.WriteLine("Inserisci un'altra parola:");
+        string Word2 = Console.ReadLine();
+
+        if (Word1.Length > Word2.Length)
+        {
+            Console.WriteLine(Word2 + " " +  Word1);
+        }
+        else
+        {
+            Console.WriteLine(Word1 + " " + Word2);
+        }
+
+
+        //Snack 1
+
+        int Number1, Number2;
+        Console.WriteLine("Inserisci il primo numero:");
+        Number1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Inserisci il secondo numero:");
+        Number2 = Convert.ToInt32(Console.ReadLine());
+
+        if (Number1 > Number2)
+        {
+            Console.Write("Il numero maggiore è: " + Number1);
+        }
+        else
+        {
+            Console.Write("Il numero maggiore è: " + Number2);
+        }
+
+        //
+        //int Result;
+        //Result = Number1 + Number2;
+        //Console.WriteLine("Sum of two Numbers:" + Result.ToString());
+        //Console.ReadLine();
+
+
+
+        //////////////////////////////////////////////////////////////// Fine snacks //////////////////////////////////////////////
+
+
+
+
         //dichiaro l'array
 
         string[] cibiPreferiti = { "Riso alla zucca", "Insalata di mare", "Torta al cioccolato", "Bistecca", "Pizza", "Tortellini"};
@@ -84,6 +137,9 @@ internal class Program
             Console.WriteLine("La mediana è: {0}" + cibiPreferiti[mediana]);
 
         }
+
+
+       
 
 
 
