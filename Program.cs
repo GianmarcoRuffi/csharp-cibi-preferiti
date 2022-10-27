@@ -9,6 +9,18 @@ internal class Program
 
         /////////////////////////////////////////////////////////// Inizio Snacks////////////////////////////////////////////////////////////////////////////////////////
 
+        //Snack 9
+
+        Console.WriteLine("Inserisci un numero\n");
+        int n1 = Convert.ToInt32(Console.ReadLine());
+        do
+        {
+            Console.WriteLine("Inserisci un numero\n");
+            n1 = Convert.ToInt32(Console.ReadLine());
+        }
+        while ((n1 < 50));
+
+        return;
 
         //Snack 8
 
