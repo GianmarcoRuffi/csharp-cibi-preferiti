@@ -1,14 +1,22 @@
-﻿internal class Program
+﻿using System;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
         string[] cibiPreferiti = { "Riso alla zucca", "Insalata di mare", "Torta al cioccolato", "Bistecca", "Pizza"};
 
-        // Array intero
+        // Array lista intera
+
+        //for (int i = 0; i < cibiPreferiti.Length; i++)
+
+        //{ Console.WriteLine($"{cibiPreferiti[i]}  "); };
+
 
         for (int i = 0; i < cibiPreferiti.Length; i++)
-
-        { Console.WriteLine($"{cibiPreferiti[i]}  "); };
+        {
+            Console.WriteLine(String.Format("{0} = {1}", i, cibiPreferiti[i]));
+        }
 
         // Primo in classifica
 
