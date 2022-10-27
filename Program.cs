@@ -10,6 +10,20 @@ internal class Program
         /////////////////////////////////////////////////////////// Inizio Snacks/////////////////////////////////////////////////////////////////////////////////////
 
 
+
+        //Snack 4
+
+        double sum = 0, avg = 0;
+        double[] numbers = { 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            sum += numbers[i];
+        }
+        avg = sum / numbers.Length;
+        Console.WriteLine("Somma: " + sum);
+        Console.WriteLine("Media : " + avg);
+
+
         //Snack 3
 
         int Sum = 0, Value;
