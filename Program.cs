@@ -2,6 +2,13 @@
 //Console.WriteLine("Hello, World!");
 
 
-string[] cibiPreferiti = { "Pasta", "Pizza" };
+string[] cibiPreferiti = { "Riso alla zucca", "Pizza", "Fregula con arselle", "Torta al cioccolato", "Bistecca" };
 
-for (int i = 0; i < cibiPreferiti.Length; i++) ;
+for (int i = 0; i < cibiPreferiti.Length; i++)
+
+{ Console.WriteLine(i.ToString());};
+
+for (int i = 0; i < cibiPreferiti.Length; i++) 
+
+{ Console.Write("{0}  ", cibiPreferiti[i]); };
+    
