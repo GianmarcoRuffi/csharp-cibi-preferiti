@@ -8,19 +8,38 @@ internal class Program
 
 
         /////////////////////////////////////////////////////////// Inizio Snacks////////////////////////////////////////////////////////////////////////////////////////
+        ///
 
-        //Snack 9
 
-        Console.WriteLine("Inserisci un numero\n");
-        int n1 = Convert.ToInt32(Console.ReadLine());
-        do
-        {
-            Console.WriteLine("Inserisci un numero\n");
-            n1 = Convert.ToInt32(Console.ReadLine());
-        }
-        while ((n1 < 50));
+        //snack10
+Console.WriteLine("Inserisci un numero");
+int N = Convert.ToInt32(Console.ReadLine());
+Random random = new Random();
+for (int i = 0; i < N; i++)
+{
+    int[] array = new int[10];
+    Console.WriteLine("Array numero" + (i + 1) + "è: ");
+    for (int j = 0; j < 10; j++)
+    {
+        array[j] = random.Next(1, 100);
+        Console.Write(array[j] + "  ");
+    }
+    Console.WriteLine();
 
-        return;
+
+
+
+    //Snack9
+int[] numeri = new int[50];
+int somma = 0;
+while (somma < 50)
+{
+    Console.WriteLine("Inserisci un numero");
+    somma += Convert.ToInt32(Console.ReadLine());
+}
+
+
+}
 
         //Snack 8
 
@@ -43,17 +62,17 @@ internal class Program
 
         //Snack 7
 
-        int[] inputNumbers = new int[6];
-
-        Console.WriteLine("Inserisci 6 volte dei numeri:");
-        for (int i = 1; i <= inputNumbers.Length; i++)
+       int[] oddNumbers = new int[6];
+       int index = 0;
+       for(int i=0; i<oddNumbers.Length; i++)
         {
-            Console.WriteLine("Inserisci un numero: ");
-
-            //inputNumbers[i] = Convert.ToInt32(Console.ReadLine()); CREA UN'ECCEZIONE???
-
-          
-
+        Console.WriteLine("Inserisci un numero:");
+        int numero = Convert.ToInt32(Console.ReadLine());
+         if(numero%2 != 0)
+          {
+           oddNumbers[index] = numero;
+            index++;
+                }
         }
 
         return;
