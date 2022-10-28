@@ -11,13 +11,13 @@ internal class Program
         ///
 
 
-        //snack10
-Console.WriteLine("Inserisci un numero");
-int N = Convert.ToInt32(Console.ReadLine());
-Random random = new Random();
-for (int i = 0; i < N; i++)
+        //Snack10
+    Console.WriteLine("Inserisci un numero");
+      int N = Convert.ToInt32(Console.ReadLine());
+       Random random = new Random();
+       for (int i = 0; i < N; i++)
 {
-    int[] array = new int[10];
+        int[] array = new int[10];
     Console.WriteLine("Array numero" + (i + 1) + "è: ");
     for (int j = 0; j < 10; j++)
     {
