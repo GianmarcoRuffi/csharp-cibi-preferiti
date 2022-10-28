@@ -5,6 +5,27 @@ internal class Program
     private static void Main(string[] args)
     {
         /////////////////////////////////////////////SNACKS 28/10/2022//////////////////////////////////////////////////////////
+        ///
+
+        //Snack 2
+
+        // Creazione della funzione pari / dispari
+
+        string pariDispari(int num)
+        {
+            if (num % 2 == 0)
+                return "Pari";
+            return "Dispari";
+        }
+
+        // Richiesta all'utente
+
+        Console.WriteLine("Inserisci un numero:");
+        int num = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Hai inserito un numero: " + pariDispari(num));
+
+        return;
 
         //Snack 1
 
